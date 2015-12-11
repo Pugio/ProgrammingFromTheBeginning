@@ -2,14 +2,14 @@ def commit_modified_files
   if modified_files.empty?
     modified = git_modified_paths
 
-    return if modified.empty? || (modified.size == 1 && modified[0][1] =~ /\$__StoryList.tid/)
+    return if modified.empty?
     p modified
     `git add -A && git commit -a -m "#{commit_message_from_modified(modified)}"`
   end
 end
 
 def git_modified_paths
-  `git status -s`.split("\n").map {|n| n.strip.split(/\s+/) }
+  `git status -s`.split("\n").map {|n| n.strip.split(/\s+/) }.reject {|_,f| f =~ /\/Draft_of_|\$__StoryList.tid/}
 end
 
 def modified_files(root_path='.')
@@ -33,7 +33,7 @@ puts 'starting watcher'
 Thread.new do
   puts 'watcher on'
   loop do
-    sleep 1
+    sleep 3
     commit_modified_files
   end
 end

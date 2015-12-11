@@ -1,0 +1,78 @@
+created: 20151127145635887
+draft.of: Notes
+draft.title: Notes
+modified: 20151211071222068
+tags: 
+title: Draft of 'Notes'
+tmap.id: 5f913013-f4f3-4e6c-8ecf-f215b9e0a2f5
+tmap.style: {"color":{"background":"rgba(112,252,144,1)"}}
+type: text/vnd.tiddlywiki
+
+Writing a Good Ruby and Rails From Scratch
+testing
+Language Features
+
+* Why do we have this feature?
+** What if we didn't have it?
+* What is it useful for?
+* When is it normally used?
+** Multiple contexts / reasons.
+*** Is there a primary reason?
+* When //should// it be used (if at all)?
+
+Structure
+
+* Essential. (core path)
+* Diversions. (explanations, digressions)
+
+
+Critiques from Learners
+
+* Pain points were figuring out the larger picture stuff. I could figure out how to solve a certain problem but the overarching principles were hard to grasp. Also, I felt like so many tutorials were built for early*stage beginners but had difficulty (still do) finding intermediate level stuff 10:40 PM
+* Also I feel like a lot of the overarching principles weren't taught at all, not just that they were hard to grasp. And also, how to solve random problems you run into in the real world** debugging** wasn't really addressed 10:42 PM
+* It always felt like stuff written by a coder, instead of by a truly skilled teacher 1
+
+
+A program is X that is understandable by humans and executable by machines.
+
+Binary / Hex
+
+* top down
+** number systems, hex, binary
+* bottom up
+** gates on off, storage for either a zero or one (little slots In a warehouse)
+
+What is programming
+
+* It's like writing
+
+Design
+
+* why it matters
+* basic elements, principles
+* further resources
+
+Protocols
+How the web works
+Nice overview / details / What you really need to know (on a day to day basis, for programming)
+
+How to find help
+
+Tools of he craft
+
+* editors
+* debuggers
+* version control
+* command line
+* package managers
+
+Emphasize: everything is conventions. No cosmic objectivity here.
+
+Digressions
+
+* how does a computer actually work / execute code?
+
+
+!!! Quick, unsorted, additions
+* Versioning
+* Dependency management

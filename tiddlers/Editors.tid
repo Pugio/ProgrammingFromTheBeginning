@@ -1,5 +1,5 @@
 created: 20151129061302020
-modified: 20151129164058507
+modified: 20151211073727829
 title: Editors
 tmap.id: f6c36c98-879b-4eb9-98bd-04c327ced82f
 type: text/vnd.tiddlywiki
@@ -20,6 +20,11 @@ IDEs vs Text Editors (vs Terminal based editors)
 * Eclipse
 * Netj (Intellibeans?)
 
+
+Discuss Cloud/Web based IDEs
+* brackets ?
+* VisualCode
+* etc.
 
 Features to Look For
 

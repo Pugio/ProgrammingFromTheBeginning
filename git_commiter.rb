@@ -9,7 +9,7 @@ def commit_modified_files
 end
 
 def git_modified_paths
-  `git status -s`.split("\n").map {|n| n.strip.split(/\s+/) }.reject {|_,f| f =~ /\/Draft_of_|\$__StoryList.tid/}
+  `git status -s`.split("\n").map {|n| n.strip.split(/\s+/) }.reject {|_,f| f =~ /\/Draft_of_|\$__StoryList.tid|\.swp$/}
 end
 
 def modified_files(root_path='.')

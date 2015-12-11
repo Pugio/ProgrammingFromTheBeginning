@@ -1,9 +1,9 @@
-def do_it
+def commit_modified_files
   if modified_files.empty?
     modified = git_modified_paths
-    p modified
-    return if modified.empty?
 
+    return if modified.empty?
+    p modified
     `git commit -a -m "#{commit_message_from_modified(modified)}"`
   end
 end
@@ -26,4 +26,16 @@ def commit_message_from_modified(modified_paths)
   end
 end
 
-do_it
+puts 'starting watcher'
+
+Thread.new do
+  puts 'watcher on'
+  loop do
+    sleep 1
+    commit_modified_files
+  end
+end
+
+pid = Process.spawn "tiddlywiki --server"
+Process.wait pid
+puts 'here: ' + pid

@@ -1,5 +1,5 @@
 created: 20151127145635887
-modified: 20151211071230110
+modified: 20151211071446069
 tags: 
 title: Notes
 tmap.id: 5f913013-f4f3-4e6c-8ecf-f215b9e0a2f5
@@ -7,7 +7,7 @@ tmap.style: {"color":{"background":"rgba(112,252,144,1)"}}
 type: text/vnd.tiddlywiki
 
 Writing a Good Ruby and Rails From Scratch
-> Added git tracking
+
 Language Features
 
 * Why do we have this feature?

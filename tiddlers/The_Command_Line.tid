@@ -1,0 +1,29 @@
+created: 20151129143000735
+modified: 20151129163807655
+tags: 
+title: The Command Line
+tmap.id: f0ea578f-37d3-40ca-89fc-d3b1af32a1bd
+type: text/vnd.tiddlywiki
+
+It's a way to talk to your computer via text.
+It has built in commands, and can also run programs.
+There are many programs available to run in the shell.
+There are different shells, but they all look similar.
+Environment variables (try to insulate, but connect, from Ruby's concept of variables).
+* The path
+
+Windows Section - *nix section
+
+Basic commands
+* navigation
+* file manipulation
+* flags
+
+Hidden Directories
+
+Advanced
+* config file (bashrc)
+* aliases
+* changing the PATH
+
+Tutorials (Where else to go)

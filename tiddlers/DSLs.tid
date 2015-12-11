@@ -1,0 +1,17 @@
+created: 20151129164440991
+modified: 20151129165104454
+title: DSLs
+tmap.id: 0131df3f-5892-4736-8a72-3080fd16c876
+type: text/vnd.tiddlywiki
+
+Domain Specific Language
+
+Why Is This a Thing?
+You're always making domain specific languages. (Paul Graham quote about this, or lisp, or something).
+Think of an inside joke between friends – you're using English, but you can convey so much more, so quickly. Concise and meaningful.
+
+Create clear example of DSL > raw code.
+Library system?
+Cash register?
+A game? (maybe, but those text based rooms are not familiar to many people, maybe a sport?)
+

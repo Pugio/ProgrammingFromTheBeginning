@@ -1,0 +1,8 @@
+created: 20151129233304660
+modified: 20151129234319585
+priority: 1
+scope: [tag[rails]]
+style: {"color":{"background":"rgba(252,94,99,1)","border":"rgba(233,35,4,1)"},"font":{"color":"rgba(255,255,255,1)"},"borderWidth":2,"borderWidthSelected":3}
+title: $:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/sn:rails
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,23 @@
+created: 20151127153853141
+modified: 20151127161430908
+tags: 
+title: What is Programming?
+tmap.id: 525968a7-44d9-49ce-b052-18e99d53c7ab
+type: text/vnd.tiddlywiki
+
+Programming is: telling a machine (a computer) to do stuff. //Good// programming is clearly communicating to humans what you're doing, while at the same time telling a machine to do it.
+
+A programmer writes programs, which are descriptions of what you want the machine to do. People have many ideas about the best way to instruct machines, and so have built many different __programming languages__ to do so. Like spoken languages, each programming language has its own syntax, grammar, and vocabulary. Just as I can say "open the door",  "abre la puerta" (Spanish), or "פתח את הדלת" (Hebrew), and mean pretty much the same thing, I can say {{{puts "hello world"}}} (the Ruby programming language), {{{printf("hello world\n");}}} (the C language), or {{{System.out.println("hello world");}}} (Java), and mean "tell the computer to display the words 'hello world' followed by a new line.
+
+
+
+
+<<< A Good Program
+Good programs are ones that are clear to humans. They convey exactly what you're doing, how you're doing it, and even what you were thinking at the time you were writing it.
+
+Like a good piece of writing, a good program is clear, concise, and does a good job conveying the intent of the author, without any extraneous words or unneeded concepts.
+
+This is important: As a programmer, you should be thinking first "How clear would this program be to someone else?". Computers don't care about clarity, only correctness. As long as you've written a program without any errors, the machine will happily perform it.
+
+But come back to an unclear program you've written six months ago, and you'll tear your hair out in frustration.
+<<<

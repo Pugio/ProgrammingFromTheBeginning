@@ -1,0 +1,31 @@
+created: 20151129061302020
+modified: 20151129164058507
+title: Editors
+tmap.id: f6c36c98-879b-4eb9-98bd-04c327ced82f
+type: text/vnd.tiddlywiki
+
+Vim vs Emacs
+
+How to move around in each, how to get in/out.
+Importance of learning the ins&outs of a good editor – knowing your tools. Time savings, fluency, less gap between thought and action.
+
+Summary, explanation, but quick expo on the top so they don't get bogged down in all these details.
+IDEs vs Text Editors (vs Terminal based editors)
+
+* vim
+* emacs
+* Sublime 
+* Atom
+* Visual Studio
+* Eclipse
+* Netj (Intellibeans?)
+
+
+Features to Look For
+
+* syntax highlighting
+* project view
+* search (w/ regexes)
+* autocomplete
+* plugins
+* various&custom keybindings

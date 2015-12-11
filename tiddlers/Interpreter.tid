@@ -1,0 +1,17 @@
+created: 20151128232631739
+modified: 20151129061308217
+title: Interpreter
+tmap.id: d454814f-f908-495f-b4c1-a4f28a1a033c
+type: text/vnd.tiddlywiki
+
+Live translation.
+Conversation.
+How does it work?
+- - Image of little robot changing values, performing operations, etc.
+- - Interpreter speaking to machine: human:"x = 5 + 3" -> interpreter:"0101010110" -> machine: x[ 8 ].
+
+Steps:
+ - parsing, syntax check; now it understands the sentence; try to perform the sentence... result, or error
+
+Humans built the interpreter. It's just a program (written in another language, sidebar discussing all the layers of bootstrapping), that knows how to understand a particular syntax, and do certain things as a result. You can write your own interpreters, using Ruby, or any other language, and create your own language. 
+ 

@@ -1,0 +1,30 @@
+created: 20151129233113930
+modified: 20151129234359710
+tags: rails
+title: Rails
+tmap.id: 4c0c8a44-5c90-4113-9f3e-dade45460f83
+type: text/vnd.tiddlywiki
+
+* databases
+* activerecord
+* all web topics
+** HTTP
+*** status codes
+** web server
+** request
+** response
+* REST
+* MVC
+* Philosophy
+** Why so much stuff? What's it all for?
+* Testing
+* generators
+* console
+* assets
+* front-end
+** HTML
+** CSS
+** JS
+*** AJAX
+* History (how it came to be today)
+* Community (layout, profiles, destinations)

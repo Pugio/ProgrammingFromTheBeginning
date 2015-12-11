@@ -1,0 +1,27 @@
+created: 20151128232352604
+modified: 20151129164427952
+tags: 
+title: List of Concepts (in Ruby)
+tmap.id: 0a55efb8-9bea-43d6-bfe7-e5c85d378440
+type: text/vnd.tiddlywiki
+
+* functions
+* blocks
+* variables
+* data types
+* objects
+* classes
+* scope
+* arguments
+* local variables
+* control flow
+** if statements
+** loops (while)
+** case / when
+** yield
+* errors / exceptions
+* methods
+* symbols
+
+
+* metaprogramming

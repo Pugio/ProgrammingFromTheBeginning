@@ -1,0 +1,15 @@
+created: 20151127150322178
+modified: 20151127153247544
+tags: 
+title: Purpose of this Book (who for)
+tmap.edges: {"314fdc7e-8cc6-4c99-96af-9ba988ff471c":{"to":"35347223-2936-4c79-8fb1-624edc8d01c8","type":"reading_flow"}}
+tmap.id: 7f0ac546-9aa9-4c99-94c1-2a4346afbb5b
+type: text/vnd.tiddlywiki
+
+This book is for people who want to learn programming. It is for smart people, motivated people, determined people, but:
+
+''You do not need to know anything about programming to begin with this book.''
+
+In fact the only computer knowledge you need is the ability to download and install programs from a website.
+
+This book is also for people who have felt lost or overwhelmed by all the things needed to be a good programmer. There's a large gap between being able to write some lines of code and really feeling confident in your ability to write working programs for other people. This book will give you that confidence.

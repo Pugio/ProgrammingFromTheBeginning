@@ -20,6 +20,9 @@ end
 ACTIONS = Hash.new('changed').merge('M' => 'modified', '??' => 'added', 'D' => 'deleted')
 def commit_message_from_modified(modified_paths)
   if note = modified_paths.find {|p| File.basename(p[1])[0] != '$'} || modified_paths.find {|p| File.basename(p[1])[0] == '$'}
+    p note
+    puts note[1]
+    puts File.basename(note[1])
     "#{ACTIONS[note[0]].capitalize} #{File.basename(note[1])}"
   elsif file = modified_paths.find {|p| p =~ /\.rb$/}
     "Source Code: #{ACTIONS[file[0]].capitalize} #{File.basename(file[1])}"

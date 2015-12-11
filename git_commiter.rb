@@ -1,10 +1,10 @@
 def do_it
   if modified_files.empty?
     modified = git_modified_paths
-
+    p modified
     return if modified.empty?
 
-    `git commit -a -m #{commit_message_from_modified(modified)}`
+    `git commit -a -m "#{commit_message_from_modified(modified)}"`
   end
 end
 

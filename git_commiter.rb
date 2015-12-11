@@ -1,11 +1,15 @@
 def commit_modified_files
   if modified_files.empty?
-    modified = git_modified_paths
-
-    return if modified.empty?
-    p modified
-    `git add -A && git commit -a -m "#{commit_message_from_modified(modified)}"`
+    commit_git_modified
   end
+end
+
+def commit_git_modified
+  modified = git_modified_paths
+
+  return if modified.empty?
+  p modified
+  `git add -A && git commit -a -m "#{commit_message_from_modified(modified)}"`
 end
 
 def git_modified_paths
@@ -28,8 +32,10 @@ def commit_message_from_modified(modified_paths)
   msg.gsub('$', '\$')
 end
 
-puts 'starting watcher'
+at_exit { commit_git_modified }
 
+puts 'starting watcher'
+#yo
 Thread.new do
   puts 'watcher on'
   loop do
